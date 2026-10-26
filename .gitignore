@@ -1,0 +1,19 @@
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Dependencies
+node_modules/
+
+# Logs
+*.log
+
+# Firebase local files and private keys
+.firebase/
+serviceAccountKey.json
+*firebase-adminsdk*.json
+
+# System files
+.DS_Store
+Thumbs.db
